@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download soil mangement photo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffecd1;
+        }
+
+        .container {
+            text-align: center;
+            background: #fff3e0;
+            border-radius: 12px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #ff6f00;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            padding: 10px;
+            background-color: #ffe0b2;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #ff6f00;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #e65100;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Download soil mangement photo</h1>
+        
+        <!-- Image display section -->
+        <div class="image-container">
+            <img src="ipt.io.jpg" alt="Sample Image">
+        </div>
+        
+        <!-- Download button -->
+        <a href="ipt.io.jpg" download class="download-btn">Download Image</a>
+    </div>
+
+</body>
+</html>
